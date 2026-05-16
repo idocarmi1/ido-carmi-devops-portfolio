@@ -1,0 +1,49 @@
+import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
+import FeaturedProject from "./components/FeaturedProject.jsx";
+import Hero from "./components/Hero.jsx";
+import Notes from "./components/Notes.jsx";
+import Projects from "./components/Projects.jsx";
+import Roadmap from "./components/Roadmap.jsx";
+import Skills from "./components/Skills.jsx";
+
+const navItems = [
+  ["About", "#about"],
+  ["Skills", "#skills"],
+  ["Project", "#featured-project"],
+  ["Roadmap", "#roadmap"],
+  ["Contact", "#contact"],
+];
+
+function App() {
+  return (
+    <div className="site-shell">
+      <header className="site-header">
+        <a className="brand" href="#top" aria-label="Ido Carmi portfolio home">
+          <span className="brand-mark">IC</span>
+          <span>Ido Carmi</span>
+        </a>
+        <nav className="nav-links" aria-label="Main navigation">
+          {navItems.map(([label, href]) => (
+            <a key={href} href={href}>
+              {label}
+            </a>
+          ))}
+        </nav>
+      </header>
+
+      <main id="top">
+        <Hero />
+        <About />
+        <Skills />
+        <FeaturedProject />
+        <Projects />
+        <Roadmap />
+        <Notes />
+        <Contact />
+      </main>
+    </div>
+  );
+}
+
+export default App;

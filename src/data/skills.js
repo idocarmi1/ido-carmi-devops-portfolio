@@ -1,0 +1,78 @@
+export const skills = [
+  {
+    title: "Linux & Systems",
+    items: [
+      "Linux administration",
+      "System logs",
+      "Services and systemd",
+      "File permissions",
+      "Processes",
+      "SSH",
+      "Bash basics",
+      "Troubleshooting",
+    ],
+  },
+  {
+    title: "Networking",
+    items: [
+      "TCP/IP",
+      "DNS",
+      "Routing",
+      "VLANs",
+      "BGP",
+      "MPLS",
+      "VRF",
+      "Firewalls",
+      "Load Balancing",
+      "Network troubleshooting",
+    ],
+  },
+  {
+    title: "DevOps & CI/CD",
+    items: [
+      "Git",
+      "GitHub",
+      "Jenkins",
+      "CI/CD pipelines",
+      "Docker",
+      "Docker Compose",
+      "Infrastructure automation",
+      "Technical documentation",
+    ],
+  },
+  {
+    title: "Cloud Infrastructure",
+    items: [
+      "AWS EC2 concepts",
+      "Security Groups",
+      "VPC basics",
+      "Cloud deployment awareness",
+      "Infrastructure as Code",
+      "Terraform",
+    ],
+  },
+  {
+    title: "Python & Automation",
+    items: [
+      "Python basics",
+      "API requests",
+      "JSON",
+      "Automation scripts",
+      "Log analysis concepts",
+      "Incident automation ideas",
+    ],
+  },
+  {
+    title: "AI Automation / AIOps",
+    items: [
+      "AI Incident Assistant",
+      "Log summarization",
+      "Incident analysis",
+      "Severity classification",
+      "Root cause suggestion",
+      "Escalation message generation",
+      "Mock AI workflow",
+      "Future OpenAI API integration",
+    ],
+  },
+];
