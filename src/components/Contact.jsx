@@ -62,10 +62,9 @@ function Contact() {
           <p className="eyebrow">Resume</p>
           <h3>Download Resume</h3>
           <p>
-            The resume button is wired to <code>public/resume.pdf</code>. Place the final PDF there
-            before deploying.
+            The resume button is wired to <code>public/resume/Ido-Carmi-Resume.pdf</code>.
           </p>
-          <a className="button ghost" href="/resume.pdf">
+          <a className="button ghost" href="/resume/Ido-Carmi-Resume.pdf" download>
             Download Resume
           </a>
         </div>

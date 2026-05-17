@@ -105,8 +105,9 @@ src/
   styles.css
 
 public/
+  resume/
+    Ido-Carmi-Resume.pdf
   screenshots/
-  resume.pdf
 ```
 
 ## Resume
@@ -114,10 +115,10 @@ public/
 The site includes a `Download Resume` button that points to:
 
 ```text
-public/resume.pdf
+public/resume/Ido-Carmi-Resume.pdf
 ```
 
-Place the final resume PDF at that path before deploying. If the file is missing, the button will still render but the download URL will not resolve.
+The resume PDF is located at `public/resume/Ido-Carmi-Resume.pdf`.
 
 ## Screenshot Placeholder
 

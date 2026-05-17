@@ -4,7 +4,7 @@ const links = {
   github: "https://github.com/idocarmi1",
   linkedin: "https://www.linkedin.com/in/idocarmi011",
   email: "mailto:idocarmi011@gmail.com",
-  resume: "/resume.pdf",
+  resume: "/resume/Ido-Carmi-Resume.pdf",
 };
 
 function Hero() {
@@ -40,7 +40,7 @@ function Hero() {
           <a className="button secondary" href="#projects">
             View Projects
           </a>
-          <a className="button ghost" href={links.resume}>
+          <a className="button ghost" href={links.resume} download>
             Download Resume
           </a>
         </div>
