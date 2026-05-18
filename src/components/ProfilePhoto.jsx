@@ -9,7 +9,14 @@ function ProfilePhoto({ variant = "default" }) {
   return (
     <div className={`profile-photo-card ${variant}`}>
       {isAvailable ? (
-        <img src={profilePhotoPath} alt={altText} onError={() => setIsAvailable(false)} />
+        <img
+          src={profilePhotoPath}
+          alt={altText}
+          decoding="async"
+          fetchPriority={variant === "hero-photo" ? "high" : "auto"}
+          loading={variant === "hero-photo" ? "eager" : "lazy"}
+          onError={() => setIsAvailable(false)}
+        />
       ) : (
         <div className="profile-photo-fallback" role="img" aria-label={altText}>
           <span>IC</span>

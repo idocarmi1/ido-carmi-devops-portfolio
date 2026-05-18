@@ -11,13 +11,18 @@ const navItems = [
   ["About", "#about"],
   ["Skills", "#skills"],
   ["Project", "#featured-project"],
+  ["Projects", "#projects"],
   ["Roadmap", "#roadmap"],
+  ["Notes", "#notes"],
   ["Contact", "#contact"],
 ];
 
 function App() {
   return (
     <div className="site-shell">
+      <a className="skip-link" href="#top">
+        Skip to main content
+      </a>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Ido Carmi portfolio home">
           <span className="brand-mark">IC</span>

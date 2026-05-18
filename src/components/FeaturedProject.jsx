@@ -60,6 +60,8 @@ function FeaturedProject() {
             <img
               src="/screenshots/ai-incident-assistant.png"
               alt="AI Incident Assistant Screenshot"
+              decoding="async"
+              loading="lazy"
               onError={() => setScreenshotAvailable(false)}
             />
           ) : (
