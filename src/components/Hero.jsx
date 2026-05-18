@@ -7,6 +7,8 @@ const links = {
   resume: "/resume/Ido-Carmi-Resume.pdf",
 };
 
+const heroTags = ["NOC Operations", "Linux", "Networking", "DevSecOps", "AI Automation"];
+
 function Hero() {
   return (
     <section className="hero section">
@@ -20,6 +22,11 @@ function Hero() {
               NOC Engineer | Linux & Networking | DevSecOps | AI Automation
             </p>
           </div>
+        </div>
+        <div className="hero-tags" aria-label="Core professional focus areas">
+          {heroTags.map((tag) => (
+            <span key={tag}>{tag}</span>
+          ))}
         </div>
         <p className="hero-subtitle">
           Building my path from NOC and infrastructure operations into DevOps, Cloud, and
@@ -44,9 +51,33 @@ function Hero() {
             Download Resume
           </a>
         </div>
+        <div className="hero-terminal" aria-label="Portfolio focus terminal accent">
+          <span className="terminal-dot" />
+          <code>noc-ops</code>
+          <span>monitoring</span>
+          <span>troubleshooting</span>
+          <span>automation</span>
+        </div>
       </div>
 
       <aside className="hero-panel" aria-label="Professional focus">
+        <div className="hero-system-card">
+          <div className="system-card-header">
+            <span>Portfolio Signal</span>
+            <strong>Online</strong>
+          </div>
+          <div className="network-lines" aria-hidden="true">
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+          <div className="system-card-body">
+            <p>Operations experience</p>
+            <p>DevOps learning path</p>
+            <p>AI automation direction</p>
+          </div>
+        </div>
         <div className="status-card">
           <span className="pulse-dot" />
           <span>Open to student and junior DevOps opportunities</span>

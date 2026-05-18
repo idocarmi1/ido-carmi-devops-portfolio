@@ -9,9 +9,12 @@ function Roadmap() {
       </SectionHeader>
 
       <div className="roadmap">
-        {roadmap.map((item) => (
+        {roadmap.map((item, index) => (
           <article className="roadmap-item" key={item.stage}>
-            <div className="roadmap-marker">{item.stage}</div>
+            <div className="roadmap-marker">
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <strong>{item.stage}</strong>
+            </div>
             <div className="roadmap-card">
               <h3>{item.title}</h3>
               <p>{item.topics}</p>

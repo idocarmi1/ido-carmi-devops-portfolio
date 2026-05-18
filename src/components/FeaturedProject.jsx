@@ -14,13 +14,14 @@ function FeaturedProject() {
   const [screenshotAvailable, setScreenshotAvailable] = useState(true);
 
   return (
-    <section className="section" id="featured-project">
+    <section className="section featured-section" id="featured-project">
       <SectionHeader eyebrow="Featured Project" title="AI-Powered DevSecOps CI/CD Pipeline">
         A credible portfolio project connecting DevOps delivery with NOC-style incident thinking.
       </SectionHeader>
 
       <div className="featured-layout">
         <div className="featured-copy">
+          <span className="highlight-pill">Main portfolio highlight</span>
           <h3>{featuredProject.name}</h3>
           <p>{featuredProject.description}</p>
           <p>{featuredProject.details}</p>
