@@ -165,9 +165,18 @@ code {
 }
 
 .nav-links a:hover,
-.nav-links a:focus-visible {
+.nav-links a:focus-visible,
+.nav-links a[aria-current="page"] {
   background: rgba(214, 181, 109, 0.09);
   color: var(--text);
+}
+
+.nav-links a[aria-current="page"] {
+  border: 1px solid rgba(214, 181, 109, 0.22);
+}
+
+.page-main {
+  min-height: calc(100dvh - 5rem);
 }
 
 .section {

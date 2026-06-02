@@ -38,10 +38,10 @@ function Hero() {
           Administration & Information Systems.
         </p>
         <div className="hero-actions" aria-label="Primary portfolio links">
-          <a className="button primary" href="#projects">
+          <a className="button primary" href="/projects">
             View Projects
           </a>
-          <a className="button secondary" href="#contact">
+          <a className="button secondary" href="/contact">
             Contact Me
           </a>
           <a className="button secondary" href={links.github} target="_blank" rel="noreferrer">
