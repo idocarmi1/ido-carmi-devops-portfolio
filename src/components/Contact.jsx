@@ -62,7 +62,8 @@ function Contact() {
           <p className="eyebrow">Resume</p>
           <h3>Download Resume</h3>
           <p>
-            The resume button is wired to <code>public/resume/Ido-Carmi-Resume.pdf</code>.
+            Download my updated resume for a concise overview of my experience, education,
+            technical skills, and projects.
           </p>
           <a className="button ghost" href="/resume/Ido-Carmi-Resume.pdf" download>
             Download Resume

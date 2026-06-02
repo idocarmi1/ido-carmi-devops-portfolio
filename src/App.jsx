@@ -12,10 +12,7 @@ const navItems = [
   ["About", "#about"],
   ["Skills", "#skills"],
   ["Experience", "#experience"],
-  ["Project", "#featured-project"],
   ["Projects", "#projects"],
-  ["Roadmap", "#roadmap"],
-  ["Notes", "#notes"],
   ["Contact", "#contact"],
 ];
 
