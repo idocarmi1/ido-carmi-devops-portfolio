@@ -1002,6 +1002,10 @@ p {
   display: grid;
   gap: 1.1rem;
   align-content: space-between;
+  border-color: rgba(214, 181, 109, 0.28);
+  background:
+    radial-gradient(circle at 88% 0%, rgba(214, 181, 109, 0.1), transparent 13rem),
+    var(--surface);
 }
 
 .architecture-section {
@@ -1108,13 +1112,6 @@ p {
   border-right: 1px solid rgba(214, 181, 109, 0.9);
   content: "";
   transform: translateY(-50%) rotate(45deg);
-}
-
-.projects-grid .project-card:first-child {
-  border-color: rgba(214, 181, 109, 0.28);
-  background:
-    radial-gradient(circle at 88% 0%, rgba(214, 181, 109, 0.1), transparent 13rem),
-    var(--surface);
 }
 
 .text-link {

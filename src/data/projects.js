@@ -34,15 +34,15 @@ export const projects = [
       "Portfolio concept for analyzing business workflows and suggesting practical automation opportunities using AI-assisted reasoning.",
     tech: ["AI Automation", "Business Analysis", "Workflow Mapping", "Operations"],
     repo: "https://github.com/idocarmi1/ai-business-automation-advisor",
-    linkLabel: "View GitHub",
+    linkLabel: "View Repository",
   },
   {
     name: "Personal Portfolio Website",
     description:
       "Responsive React and Vite portfolio website presenting professional experience, technical skills, projects, and contact details.",
     tech: ["React", "Vite", "Responsive Design", "Portfolio"],
-    repo: "https://github.com/idocarmi1",
-    linkLabel: "View GitHub",
+    repo: "https://github.com/idocarmi1/ido-carmi-devops-portfolio",
+    linkLabel: "View Repository",
   },
 ];
 

@@ -24,7 +24,7 @@ function Projects() {
               ))}
             </div>
             {project.repo && (
-              <a className="text-link" href={project.repo} target="_blank" rel="noreferrer">
+              <a className="text-link" href={project.repo} target="_blank" rel="noopener noreferrer">
                 {project.linkLabel || "GitHub Repository"}
               </a>
             )}
