@@ -33,7 +33,7 @@ export const projects = [
     description:
       "Portfolio concept for analyzing business workflows and suggesting practical automation opportunities using AI-assisted reasoning.",
     tech: ["AI Automation", "Business Analysis", "Workflow Mapping", "Operations"],
-    repo: "https://github.com/idocarmi1",
+    repo: "https://github.com/idocarmi1/ai-business-automation-advisor",
     linkLabel: "View GitHub",
   },
   {
