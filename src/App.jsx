@@ -1,5 +1,6 @@
 import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
+import Experience from "./components/Experience.jsx";
 import FeaturedProject from "./components/FeaturedProject.jsx";
 import Hero from "./components/Hero.jsx";
 import Notes from "./components/Notes.jsx";
@@ -10,6 +11,7 @@ import Skills from "./components/Skills.jsx";
 const navItems = [
   ["About", "#about"],
   ["Skills", "#skills"],
+  ["Experience", "#experience"],
   ["Project", "#featured-project"],
   ["Projects", "#projects"],
   ["Roadmap", "#roadmap"],
@@ -41,6 +43,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Experience />
         <FeaturedProject />
         <Projects />
         <Roadmap />

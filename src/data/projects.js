@@ -21,30 +21,28 @@ export const featuredProject = {
 
 export const projects = [
   {
-    name: "AI-Powered DevSecOps CI/CD Pipeline",
+    name: "DevSecOps CI/CD Pipeline",
     description:
-      "DevSecOps portfolio project with React, Express, Jenkins, Docker, Terraform, AWS concepts, and AI Incident Assistant for NOC/DevOps workflows.",
+      "Professional DevSecOps portfolio project with React, Express, Jenkins, Docker, Terraform, AWS concepts, and AI Incident Assistant for NOC/DevOps workflows.",
     tech: ["React", "Express.js", "Docker", "Jenkins", "Terraform", "AWS", "AI Automation"],
     repo: "https://github.com/idocarmi1/devsecops-ci-cd-pipeline",
+    linkLabel: "View Repository",
   },
   {
-    name: "Python File Organizer",
-    description: "Python automation script that organizes files into folders based on file type.",
-    tech: ["Python", "OS module", "shutil", "automation"],
-    repo: "https://github.com/idocarmi1/python-file-organizer",
-  },
-  {
-    name: "Python API User Finder",
-    description: "Python API project that uses external APIs to find and display user data.",
-    tech: ["Python", "Requests", "APIs", "JSON"],
-    repo: "https://github.com/idocarmi1/python-api-user-finder",
-  },
-  {
-    name: "Python Word Guess Game",
+    name: "AI Business Automation Advisor",
     description:
-      "Python terminal game that demonstrates basic logic, loops, conditions, lists, and user input.",
-    tech: ["Python", "Game logic", "CLI"],
-    repo: "https://github.com/idocarmi1/python-word-guess-game",
+      "Portfolio concept for analyzing business workflows and suggesting practical automation opportunities using AI-assisted reasoning.",
+    tech: ["AI Automation", "Business Analysis", "Workflow Mapping", "Operations"],
+    repo: "https://github.com/idocarmi1",
+    linkLabel: "View GitHub",
+  },
+  {
+    name: "Personal Portfolio Website",
+    description:
+      "Responsive React and Vite portfolio website presenting professional experience, technical skills, projects, and contact details.",
+    tech: ["React", "Vite", "Responsive Design", "Portfolio"],
+    repo: "https://github.com/idocarmi1",
+    linkLabel: "View GitHub",
   },
 ];
 

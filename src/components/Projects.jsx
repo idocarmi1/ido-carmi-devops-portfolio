@@ -5,7 +5,8 @@ function Projects() {
   return (
     <section className="section section-band" id="projects">
       <SectionHeader eyebrow="GitHub Work" title="Projects">
-        Small, focused repositories that show automation, DevOps learning, and practical coding.
+        Professional portfolio projects focused on DevOps, automation, business workflows, and
+        presentation quality.
       </SectionHeader>
 
       <div className="card-grid projects-grid">
@@ -22,9 +23,11 @@ function Projects() {
                 </span>
               ))}
             </div>
-            <a className="text-link" href={project.repo} target="_blank" rel="noreferrer">
-              GitHub Repository
-            </a>
+            {project.repo && (
+              <a className="text-link" href={project.repo} target="_blank" rel="noreferrer">
+                {project.linkLabel || "GitHub Repository"}
+              </a>
+            )}
           </article>
         ))}
       </div>

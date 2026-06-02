@@ -5,28 +5,30 @@ function About() {
   return (
     <section className="section" id="about">
       <SectionHeader eyebrow="Professional Background" title="About Me">
-        Honest operations experience, focused learning, and a practical DevOps direction.
+        Network operations background, formal information systems studies, and a practical DevOps
+        and cyber direction.
       </SectionHeader>
 
       <div className="about-grid">
         <div className="about-copy">
           <p>
-            I am a NOC Engineer with hands-on experience in enterprise networking, monitoring,
-            troubleshooting, Linux environments, and infrastructure operations.
+            I am an Information Systems student and Network Engineer with 4 years of experience at
+            Pelephone in NOC and network operations.
           </p>
           <p>
-            My background includes working with production systems, network incidents, firewalls,
-            monitoring tools, and communication infrastructure. I also have military experience in
-            network management and technical team leadership.
+            My background includes monitoring, troubleshooting, network systems, incidents,
+            vendors, operational communication, and working under pressure in production
+            environments.
           </p>
           <p>
-            Today, I am expanding my career toward DevOps, Cloud Infrastructure, CI/CD automation,
-            Docker, Terraform, and AI-powered automation for NOC and DevOps workflows.
+            I am studying Business Administration & Information Systems and building my
+            professional path toward DevOps, networking, cyber, product, and information systems
+            roles.
           </p>
           <p>
-            My goal is to combine my operational experience with modern DevOps tools and AI
-            automation in order to build practical solutions that help teams troubleshoot faster,
-            automate repetitive work, and improve infrastructure reliability.
+            My goal is to combine real operations experience with modern technical tools, business
+            understanding, and practical automation in order to support reliable systems and clear
+            operational decision-making.
           </p>
         </div>
 
@@ -35,19 +37,19 @@ function About() {
           <div className="focus-list" aria-label="Current focus areas">
             <div>
               <span>01</span>
-              <p>NOC, monitoring, incidents, and infrastructure troubleshooting</p>
+              <p>4 years at Pelephone in NOC and network operations</p>
             </div>
             <div>
               <span>02</span>
-              <p>Linux, networking, documentation, and operational reliability</p>
+              <p>Monitoring, troubleshooting, incidents, vendors, and pressure handling</p>
             </div>
             <div>
               <span>03</span>
-              <p>DevOps foundations with Docker, Jenkins, Terraform, and cloud concepts</p>
+              <p>Business Administration & Information Systems student</p>
             </div>
             <div>
               <span>04</span>
-              <p>AI automation ideas for incident analysis, summaries, and escalation workflows</p>
+              <p>Focused on DevOps, networking, cyber, product, and information systems roles</p>
             </div>
           </div>
         </div>

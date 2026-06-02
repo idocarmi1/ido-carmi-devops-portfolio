@@ -2,19 +2,18 @@ import { skills } from "../data/skills.js";
 import SectionHeader from "./SectionHeader.jsx";
 
 const skillMarkers = {
-  "Linux & Systems": "SYS",
   Networking: "NET",
-  "DevOps & CI/CD": "CI",
-  "Cloud Infrastructure": "CLD",
-  "Python & Automation": "PY",
-  "AI Automation / AIOps": "AI",
+  Systems: "SYS",
+  Tools: "TLS",
+  "Security / Vendors": "SEC",
 };
 
 function Skills() {
   return (
     <section className="section section-band" id="skills">
       <SectionHeader eyebrow="Toolbox" title="Technical Skills">
-        Practical technical areas shaped by NOC work and a focused DevOps learning path.
+        Practical technical areas shaped by NOC work, network operations, systems, vendors, and
+        modern DevOps tooling.
       </SectionHeader>
 
       <div className="card-grid skills-grid">

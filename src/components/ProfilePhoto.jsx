@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const profilePhotoPath = "/images/profile-photo.jpg";
+const profilePhotoPath = "/images/profile-photo-new.jpeg";
 const altText = "Ido Carmi professional profile photo";
 
 function ProfilePhoto({ variant = "default" }) {

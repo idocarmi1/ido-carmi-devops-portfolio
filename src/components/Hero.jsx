@@ -7,7 +7,7 @@ const links = {
   resume: "/resume/Ido-Carmi-Resume.pdf",
 };
 
-const heroTags = ["NOC Operations", "Linux", "Networking", "DevSecOps", "AI Automation"];
+const heroTags = ["Network Operations", "DevOps", "Cyber", "Product", "Information Systems"];
 
 function Hero() {
   return (
@@ -19,7 +19,7 @@ function Hero() {
             <p className="eyebrow">Ido Carmi DevOps Portfolio</p>
             <h1>Ido Carmi</h1>
             <p className="hero-title">
-              NOC Engineer | Linux & Networking | DevSecOps | AI Automation
+              Information Systems Student | Network Engineer | DevOps & Cyber Enthusiast
             </p>
           </div>
         </div>
@@ -29,23 +29,23 @@ function Hero() {
           ))}
         </div>
         <p className="hero-subtitle">
-          Building my path from NOC and infrastructure operations into DevOps, Cloud, and
-          AI-powered automation.
+          Formal portfolio focused on networking, NOC operations, DevOps foundations, cyber
+          awareness, product thinking, and information systems.
         </p>
         <p className="hero-copy">
-          Hands-on experience in network operations, Linux, monitoring, troubleshooting, and
-          enterprise infrastructure. Currently focused on DevOps, CI/CD, Docker, Terraform, AWS
-          concepts, and AI automation for NOC/DevOps workflows.
+          4 years of hands-on experience in network operations, monitoring, troubleshooting,
+          incidents, vendors, and production systems, combined with academic studies in Business
+          Administration & Information Systems.
         </p>
         <div className="hero-actions" aria-label="Primary portfolio links">
-          <a className="button primary" href={links.github} target="_blank" rel="noreferrer">
-            View GitHub
-          </a>
-          <a className="button secondary" href={links.linkedin} target="_blank" rel="noreferrer">
-            View LinkedIn
-          </a>
-          <a className="button secondary" href="#projects">
+          <a className="button primary" href="#projects">
             View Projects
+          </a>
+          <a className="button secondary" href="#contact">
+            Contact Me
+          </a>
+          <a className="button secondary" href={links.github} target="_blank" rel="noreferrer">
+            GitHub
           </a>
           <a className="button ghost" href={links.resume} download>
             Download Resume
@@ -53,10 +53,10 @@ function Hero() {
         </div>
         <div className="hero-terminal" aria-label="Portfolio focus terminal accent">
           <span className="terminal-dot" />
-          <code>noc-ops</code>
+          <code>network-ops</code>
           <span>monitoring</span>
           <span>troubleshooting</span>
-          <span>automation</span>
+          <span>cyber-aware operations</span>
         </div>
       </div>
 
@@ -73,9 +73,9 @@ function Hero() {
             <span />
           </div>
           <div className="system-card-body">
-            <p>Operations experience</p>
-            <p>DevOps learning path</p>
-            <p>AI automation direction</p>
+            <p>Network operations experience</p>
+            <p>Information systems student</p>
+            <p>DevOps and cyber direction</p>
           </div>
         </div>
         <div className="status-card">
@@ -84,20 +84,20 @@ function Hero() {
         </div>
         <div className="signal-grid">
           <div>
-            <span className="metric">NOC</span>
-            <p>Production operations, monitoring, incidents</p>
+            <span className="metric">4Y</span>
+            <p>NOC and network operations experience</p>
           </div>
           <div>
-            <span className="metric">Linux</span>
-            <p>Systems, logs, services, troubleshooting</p>
+            <span className="metric">NET</span>
+            <p>BGP, MPLS, VRF, VLANs, routing, switching</p>
           </div>
           <div>
-            <span className="metric">DevOps</span>
-            <p>CI/CD, Docker, Terraform, cloud concepts</p>
+            <span className="metric">DEV</span>
+            <p>Docker, Jenkins, GitHub, CI/CD foundations</p>
           </div>
           <div>
-            <span className="metric">AIOps</span>
-            <p>Mock incident assistant and automation direction</p>
+            <span className="metric">IS</span>
+            <p>Business Administration & Information Systems</p>
           </div>
         </div>
       </aside>

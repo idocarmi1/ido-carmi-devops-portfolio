@@ -10,8 +10,8 @@ function Contact() {
   return (
     <section className="section contact-section" id="contact">
       <SectionHeader eyebrow="Contact" title="Contact">
-        I am currently looking for student or junior opportunities in DevOps, Linux, Cloud,
-        Infrastructure, NOC Automation, and AI-powered operations.
+        I am currently looking for student or junior opportunities in DevOps, networking, NOC,
+        cyber, product, and information systems roles.
       </SectionHeader>
 
       <div className="contact-grid">
