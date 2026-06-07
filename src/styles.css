@@ -846,6 +846,11 @@ p {
   position: relative;
 }
 
+.featured-stack {
+  display: grid;
+  gap: clamp(1.6rem, 3vw, 2.4rem);
+}
+
 .featured-copy {
   position: relative;
   display: grid;
@@ -871,11 +876,23 @@ p {
   text-transform: uppercase;
 }
 
+.highlight-pill.gold {
+  border-color: rgba(214, 181, 109, 0.38);
+  background: rgba(214, 181, 109, 0.1);
+  color: #fff3c4;
+}
+
 .featured-copy h3 {
   max-width: 17ch;
   font-size: clamp(1.75rem, 3vw, 2.55rem);
   line-height: 1.04;
   text-wrap: balance;
+}
+
+.featured-subtitle {
+  color: #fff3c4;
+  font-size: 1.02rem;
+  font-weight: 850;
 }
 
 .featured-copy p,
@@ -1002,6 +1019,116 @@ p {
   border: 1px solid var(--line);
   border-radius: 6px;
   color: var(--soft);
+}
+
+.autobiz-preview {
+  background:
+    radial-gradient(circle at 30% 0%, rgba(214, 181, 109, 0.14), transparent 17rem),
+    radial-gradient(circle at 88% 72%, rgba(240, 217, 149, 0.08), transparent 16rem),
+    var(--surface);
+}
+
+.autobiz-mock {
+  background:
+    linear-gradient(rgba(214, 181, 109, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(214, 181, 109, 0.028) 1px, transparent 1px),
+    #050608;
+  background-size: 24px 24px;
+}
+
+.autobiz-mock .mock-content {
+  align-content: start;
+}
+
+.autobiz-input-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+
+.autobiz-input-grid span,
+.autobiz-recommendation,
+.autobiz-score,
+.autobiz-tools span {
+  border: 1px solid rgba(214, 181, 109, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.autobiz-input-grid span {
+  padding: 0.8rem;
+  color: var(--soft);
+  font-weight: 850;
+}
+
+.autobiz-recommendation {
+  display: grid;
+  gap: 0.58rem;
+  padding: 1rem;
+  border-color: rgba(214, 181, 109, 0.32);
+  background:
+    linear-gradient(135deg, rgba(214, 181, 109, 0.12), transparent),
+    rgba(255, 255, 255, 0.045);
+}
+
+.autobiz-recommendation span,
+.autobiz-score span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.autobiz-recommendation strong {
+  color: var(--text);
+  font-size: 1.08rem;
+  line-height: 1.5;
+}
+
+.autobiz-score {
+  display: grid;
+  gap: 0.7rem;
+  padding: 0.95rem;
+}
+
+.autobiz-score div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.autobiz-score strong {
+  color: #fff3c4;
+  font-size: 1.5rem;
+}
+
+.autobiz-score-bar {
+  overflow: hidden;
+  height: 0.72rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.autobiz-score-bar span {
+  display: block;
+  width: 92%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--cyan), var(--blue));
+}
+
+.autobiz-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.62rem;
+}
+
+.autobiz-tools span {
+  padding: 0.62rem 0.72rem;
+  color: #fff3c4;
+  font-size: 0.84rem;
+  font-weight: 900;
 }
 
 .project-card {
@@ -1592,6 +1719,7 @@ p {
   .experience-grid,
   .architecture-flow,
   .ai-product-flow,
+  .autobiz-input-grid,
   .ai-feature ul {
     grid-template-columns: 1fr;
   }

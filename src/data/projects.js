@@ -19,6 +19,29 @@ export const featuredProject = {
   repo: "https://github.com/idocarmi1/devsecops-ci-cd-pipeline",
 };
 
+export const autoBizFeaturedProject = {
+  label: "Featured AI Project",
+  name: "AutoBiz AI Advisor",
+  subtitle: "AI-powered business automation advisor demo",
+  description:
+    "A Hebrew RTL business SaaS demo that shows how AI-assisted market research can identify business pain points and turn them into automation recommendations, scoring, tools, and next steps.",
+  featureTitle: "AI Market Research & Automation Finder",
+  featureText:
+    "The project simulates a business owner entering a business field, business size, and goal. AutoBiz then returns an AI-style recommendation with automation score, suggested tools, and next steps.",
+  tech: [
+    "React",
+    "Vite",
+    "AI Demo",
+    "Business Automation",
+    "Perplexity-style Research",
+    "Automation Scoring",
+    "RTL Hebrew UI",
+    "Vercel",
+  ],
+  liveDemo: "https://ai-business-automation-advisor.vercel.app/",
+  repo: "https://github.com/idocarmi1/ai-business-automation-advisor",
+};
+
 export const projects = [
   {
     name: "DevSecOps CI/CD Pipeline",
