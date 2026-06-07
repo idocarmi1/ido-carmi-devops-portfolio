@@ -35,6 +35,42 @@ function Home() {
             </article>
           ))}
         </div>
+        <article className="home-project-highlight">
+          <div>
+            <span className="project-category-badge">AI & Business Automation</span>
+            <h3>AutoBiz AI Advisor</h3>
+            <p>
+              Hebrew AI business automation advisor demo that connects market research,
+              automation opportunity discovery, scoring, and practical recommendations into a
+              recruiter-friendly product concept.
+            </p>
+          </div>
+          <div className="badge-list">
+            {["React", "Vite", "AI Demo", "Business Automation", "RTL Hebrew UI"].map((tech) => (
+              <span className="badge" key={tech}>
+                {tech}
+              </span>
+            ))}
+          </div>
+          <div className="project-actions">
+            <a
+              className="button primary compact"
+              href="https://ai-business-automation-advisor.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Live Demo
+            </a>
+            <a
+              className="button secondary compact"
+              href="https://github.com/idocarmi1/ai-business-automation-advisor"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Repository
+            </a>
+          </div>
+        </article>
       </section>
     </>
   );
