@@ -22,6 +22,7 @@ export const featuredProject = {
 export const projects = [
   {
     name: "DevSecOps CI/CD Pipeline",
+    category: "DevOps / CI-CD",
     description:
       "Professional DevSecOps portfolio project with React, Express, Jenkins, Docker, Terraform, AWS concepts, and AI Incident Assistant for NOC/DevOps workflows.",
     tech: ["React", "Express.js", "Docker", "Jenkins", "Terraform", "AWS", "AI Automation"],
@@ -29,7 +30,40 @@ export const projects = [
     linkLabel: "View Repository",
   },
   {
+    name: "AutoBiz AI Advisor",
+    category: "AI & Business Automation",
+    isFeatured: true,
+    description:
+      "Hebrew AI business automation advisor demo that simulates market research, identifies business pain points, and recommends practical automation workflows with scoring, tools, and next steps.",
+    context:
+      "This project was built as a classroom/product demo to show how AI can be connected to a real business problem: market research, automation opportunity discovery, scoring, and practical recommendations.",
+    tech: [
+      "React",
+      "Vite",
+      "AI Demo",
+      "Business Automation",
+      "Perplexity-style Research",
+      "Vercel",
+      "RTL Hebrew UI",
+    ],
+    links: [
+      {
+        label: "View Live Demo",
+        url: "https://ai-business-automation-advisor.vercel.app/",
+        variant: "primary",
+      },
+      {
+        label: "View Repository",
+        url: "https://github.com/idocarmi1/ai-business-automation-advisor",
+        variant: "secondary",
+      },
+    ],
+    repo: "https://github.com/idocarmi1/ai-business-automation-advisor",
+    linkLabel: "View Repository",
+  },
+  {
     name: "AI Business Automation Advisor",
+    category: "AI & Business Automation",
     description:
       "Portfolio concept for analyzing business workflows and suggesting practical automation opportunities using AI-assisted reasoning.",
     tech: ["AI Automation", "Business Analysis", "Workflow Mapping", "Operations"],
@@ -38,6 +72,7 @@ export const projects = [
   },
   {
     name: "Personal Portfolio Website",
+    category: "Portfolio / Frontend",
     description:
       "Responsive React and Vite portfolio website presenting professional experience, technical skills, projects, and contact details.",
     tech: ["React", "Vite", "Responsive Design", "Portfolio"],
